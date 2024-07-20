@@ -6,9 +6,7 @@ import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
 import Pricing from './Components/Pricing'
-
-import { Routes, Route, Link } from 'react-router-dom'
-import Gallery from './Pages/Gallery'
+import Gallery from './Components/Gallery'
 
 function App() {
   
@@ -19,12 +17,10 @@ function App() {
     <Home/>
     <Features/>
     <About/>
+    <Gallery/>
     <Pricing/>
     <Footer/>
-
-    {/*
-    <Route exact path ="/gallery" component ={<Gallery/>} />
-*/}
+  
    </>
   )
 }

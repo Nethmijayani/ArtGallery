@@ -4,8 +4,8 @@ const Pricing = () => {
 
     const packages =[
       {name : "Free" , monthlyPrice:"$0" , description: "Limited accesses for some content..."},
-      {name :"Advanced", monthlyPrice: "$10" , description: "content"},
-      {name :"Premium", monthlyPrice: "$20" , description: "content"},
+      {name :"Advanced", monthlyPrice: "$10" , description: "Users can download all images"},
+      {name :"Premium", monthlyPrice: "$20" , description: "Able to get high quality images"},
       
     ]
 
