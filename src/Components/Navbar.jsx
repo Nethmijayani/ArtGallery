@@ -12,9 +12,10 @@ const Navbar = () => {
   const navItems = [
     { link: "Overview", path: "home" },
     { link: "Feature", path: "feature" },
-    { link: "About", path: "about" },
+    
     { link: "Pricing", path: "pricing" },
     {link: "SignUp", path: "signup" },
+    
   ];
   return (
     <>
@@ -27,7 +28,7 @@ const Navbar = () => {
           >
             <img src={Logo} alt="" className="w-10 inline-block items-center" />
             <span>ArtGallery</span>
-          </a>
+            </a>
 
           <ul className="hidden md:flex space-x-12">
             {navItems.map(({ link, path }) => 

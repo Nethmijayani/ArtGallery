@@ -14,7 +14,7 @@ const Home = () => {
         {/*banner content */}
         <div className="md:w-4/5 space-y-4">
             <h2 className="md:text-6xl text-3xl font-bold text-white mb-2">Take a look at newly desigened creative Art collection</h2>
-            <p className="text-2xl mb-8">some content should add</p>
+            <p className="text-2xl mb-8"> Let's dive in to our latest art collection...</p>
           <div className=" space-x-5 space-y-4">
           <button className="btn-primary">Get Started</button>
           <button className="btn-primary">Discount</button>
